@@ -5,4 +5,5 @@ from .models import Contact, Product, ProductCategory
 admin.site.register(ProductCategory)
 admin.site.register(Product)
 admin.site.register(Contact)
+
 # Register your models here.
