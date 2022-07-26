@@ -58,4 +58,5 @@ def edit(request):
     content = {"title": title, "edit_form": edit_form, "media_url": settings.MEDIA_URL}
     return render(request, "authnapp/edit.html", content)
 
+
 # Create your views here.
